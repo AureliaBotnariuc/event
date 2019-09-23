@@ -1,0 +1,103 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  .container  {
+    width:100%;
+  }
+  .container .hero-block {
+    width: 100%;
+    height: 100vh;
+    background-image:url('https://windeurope.org/summit2018/wp-content/uploads/gws-summit-2018-banner-plenary.jpg(711 kB');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  .container .hero-block .header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .container .hero-block .header button {
+    padding: 15px 69px 12px;
+    margin: 38px 52px 0 0;
+    background: #FFFFFF;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #001958;
+  }
+  .container .hero-block .hero-block-information {
+    display: flex;
+    margin: 122px;
+  }
+  .container .hero-block .hero-block-information img {
+    margin-right: 39px;
+  }
+  .container .hero-block .hero-block-information .hero-block-details {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .container .hero-block .hero-block-information .hero-block-details span {
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+  
+  }
+  .container .hero-block .hero-block-information .hero-block-details button{
+    position: absolute;
+    width: 286px;
+    height: 57px;
+    left: 241px;
+    top: 534px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .conference-details{
+    position:absolute;
+    width: 100%;
+    height: 252px;
+    left: 0px;
+    top: 632px;
+    background: #FFFFFF;
+  }
+  h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+  }
+  th, td{
+    padding:10px;
+    text-align:center;
+  }
+  th{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #828282;
+  }
+  td{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    color: #828282;
+  }
+  @media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
