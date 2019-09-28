@@ -67,35 +67,36 @@
     left: 0px;
     top: 632px;
     background: #FFFFFF;
+    text-align: center;
   }
-  h1{
+  .last{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 60px;
     text-align: center;
+    top:100px;
   }
-  th, td{
+
+  .flex-container{
+    display: flex;
     padding:10px;
     text-align:center;
+    flex-wrap: wrap;
+    width: 100%;
+
   }
-  th{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #828282;
-  }
-  td{
+  .flex-item{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
-    line-height: 75px;
+    font-size: 25px;
+    line-height: 20px;
     color: #828282;
+    margin:70px;
   }
+  
   @media only screen and (max-width: 768px) {
     [class*="col-"] {
       width: 100%;
